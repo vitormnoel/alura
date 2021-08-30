@@ -22,7 +22,31 @@
 			</div>
 		</header>
 
-		<main>
+		<main style="width: 940px; margin: 0 auto;">
+			<label for="tabela" style="margin-top: 30px;">Funcionamento:</label>
+			<table id="tabela">
+				<thead>
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Segunda</td>
+						<td>8h às 20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8h às 20h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8h às 20h</td>
+					</tr>
+				</tbody>
+			</table>
+
 			<form>
 				<label for="nomesobrenome">Nome e sobrenome</label>
 				<input type="text" id="nomesobrenome" class="input-padrao" required>
@@ -56,7 +80,7 @@
 
 				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
-				<input type="submit" value="Enviar formulário">
+				<input type="submit" value="Enviar formulário" class="enviar">
 			</form>
 		</main>
 
